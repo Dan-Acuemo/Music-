@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="player">
+        <audio id="audio" controls>
+            <source src="Sparkle.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <div id="lyrics">
+            <p data-time="20">Mada kono sekai wa</p>
+            <p data-time="24">boku o kainarashitetai mitai da</p>
+            <p data-time="28">Nozomi doori ii darou</p>
+           <p data-time="32">utsukushiku mogaku yo</p>
+            <p data-time="35">Tagai no suna-dokei</p>
+            <p data-time="39">nagame nagara kisu o shiyou yo</p>
+            <p data-time="43">「Sayonara」 kara ichiban tooi</p>
+            <p data-time="47">basho de machi-awaseyou</p>
+            <p data-time="66">Tsui ni toki wa kita</p>
+            <p data-time="70">kinou made wa joshou no joshou de</p>
+            <p data-time="74">Tobashi yomi de ii kara </p>
+            <p data-time="78">kokkara ga boku da yo</p>
+            <p data-time="82">Keiken to chishiki to</p>
+            <p data-time="86">kabi no haekakatta yuuki wo motte</p>
+            <p data-time="90">Imada katsute nai supiido de</p>
+            <p data-time="94">kimi no moto e daibu wo</p>
+            <p data-time="97">Madoromi no naka de namanurui koora ni</p>
+            <p data-time="101">Koko de nai dokka wo yumemita yo</p>
+            <p data-time="105">Kyoushitsu no mado no soto ni</p>
+            <p data-time="108">Densha ni yurare hakobareru asa ni</p>
+            <p data-time="115">Oh....</p>
+            <p data-time="119">Unmei da toka mirai toka</p>
+            <p data-time="123">tte kotoba ga dore dake te wo</p> 
+            <p data-time="127">Nobasou to todokanai</p>
+            <p data-time="131">basho de bokura koi wo suru</p>
+            <p data-time="135">Tokei no hari mo futari wo</p>
+            <p data-time="139">yokome ni minagara susumu</p>
+            <p data-time="143">Konna sekai wo futari de</p>
+            <p data-time="147">isshou iya, nanshou demo</p>
+            <p data-time="151">Ikinuite yukou</p>
+            <p data-time="159">Hajimemashite nante sa</p>
+            <p data-time="163">haruka kanata e to oiyatte</p>
+            <p data-time="167">Sennen shuuki wo</p>
+            <p data-time="170">ichinichi de iki shiyou</p>
+            <p data-time="191">Jisho ni aru kotoba de</p>
+            <p data-time="194">dekiagatta sekai wo nikunda</p>
+            <p data-time="198">Mangekyou no naka de</p>
+            <p data-time="202">hachigatsu no aru asa</p>
+            <p data-time="206">Kimi wa boku no mae de</p>
+            <p data-time="210">hanikande wa sumashite miseta</p>
+            <p data-time="214">Kono sekai no kyoukasho</p>
+            <p data-time="218">no you na egao de</p>
+            <p data-time="221">Uso mitai na hibi wo</p>
+            <p data-time="223">kikakugai no imi wo</p>
+            <p data-time="225">Higeki datte ii kara nozonda yo</p>
+            <p data-time="229">Soshitara doa no soto ni</p>
+            <p data-time="232">Kimi ga zenbu kakaete tatteita yo</p>
+            <p data-time="240">Oh.....</p>
+            <p data-time="244">Unmei da toka mirai toka</p>
+            <p data-time="248">tte kotoba ga dore dake te wo</p>
+            <p data-time="252">Nobasou to todokanai</p>
+            <p data-time="256">basho de bokura asobou ka</p>
+            <p data-time="268">Aishi kata sae mo</p>
+            <p data-time="271">kimi no nioi ga shita</p>
+            <p data-time="276">Aruki kata sae mo</p>
+            <p data-time="279">sono waraigoe ga shita</p>
+            <p data-time="284">Itsuka kiete nakunaru</p>
+            <p data-time="288">kimi no subete wo</p>
+            <p data-time="292">Kono me ni yakitsukete oku koto wa</p>
+            <p data-time="295">Mou kenri nanka janai</p>
+            <p data-time="298">gimu da to omoun da</p>
+            <p data-time="321">Unmei da toka mirai toka</p>
+            <p data-time="325">tte kotoba ga doredake te wo</p>
+            <p data-time="329">Nobasou to todokanai</p>
+            <p data-time="333">basho de bokura koi wo suru</p>
+            <p data-time="337">Tokei no hari mo futari wo</p>
+            <p data-time="341">yokome ni minagara susumu</p>
+            <p data-time="345">Sonna sekai wo futari de</p>
+            <p data-time="349">isshou iya, nanshou demo</p>
+            <p data-time="353">Ikinuite yukou</p>
+            <p data-time="360">Oh-oh-oh-oh</p>
+            <p data-time="368">Oh-oh-oh-oh</p>
+            <p data-time="372">Oh-oh</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
